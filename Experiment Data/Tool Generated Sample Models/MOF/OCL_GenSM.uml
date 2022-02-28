@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:REMP="http:///schemas/REMP/_nrTwkBTBEeWbsKyQNEJPlQ/23" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/REMP/_nrTwkBTBEeWbsKyQNEJPlQ/23 Profile.profile.uml#_zT6LnBTBEeWbsKyQNEJPlQ">
+  <uml:Model xmi:id="_rGRZYNkNEeiGt6SQgwvm6A" name="GeneratedSM">
+    <packageImport xmi:id="_rGRZYdkNEeiGt6SQgwvm6A">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:TimeEvent" xmi:id="_rGRZYtkNEeiGt6SQgwvm6A" name="-Tim-event">
+      <when xmi:id="_rGRZY9kNEeiGt6SQgwvm6A" name="-Tim-when">
+        <expr xmi:type="uml:LiteralString" xmi:id="_rGRZZNkNEeiGt6SQgwvm6A" name="-Lit-expr" value="after, 5s"/>
+      </when>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeEvent" xmi:id="_rGRZZdkNEeiGt6SQgwvm6A" name="Trigger1-Tim-event">
+      <when xmi:id="_rGRZZtkNEeiGt6SQgwvm6A" name="-Tim-when">
+        <expr xmi:type="uml:LiteralString" xmi:id="_rGRZZ9kNEeiGt6SQgwvm6A" name="-Lit-expr" value="after, 5s"/>
+      </when>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeEvent" xmi:id="_rGRZaNkNEeiGt6SQgwvm6A" name="TimeEvent1">
+      <when xmi:id="_rGRZadkNEeiGt6SQgwvm6A" name="TimeEvent1-Tim-when">
+        <expr xmi:type="uml:LiteralString" xmi:id="_rGRZatkNEeiGt6SQgwvm6A" name="-Lit-expr" value="after, 5s"/>
+      </when>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAcNkNEeiGt6SQgwvm6A" name="-Cla-class">
+      <ownedOperation xmi:id="_rGSAcdkNEeiGt6SQgwvm6A" name="-Cla-class"/>
+      <ownedOperation xmi:id="_rGSActkNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAc9kNEeiGt6SQgwvm6A" name="StateMachine1-Cla-class">
+      <ownedOperation xmi:id="_rGSAdNkNEeiGt6SQgwvm6A" name="StateMachine1-Cla-class"/>
+      <ownedOperation xmi:id="_rGSAddkNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAdtkNEeiGt6SQgwvm6A" name="OpaqueBehavior1-Cla-class">
+      <ownedOperation xmi:id="_rGSAd9kNEeiGt6SQgwvm6A" name="OpaqueBehavior1-Cla-class"/>
+      <ownedOperation xmi:id="_rGSAeNkNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAedkNEeiGt6SQgwvm6A" name="Operation1-Cla-class">
+      <ownedOperation xmi:id="_rGSAetkNEeiGt6SQgwvm6A" name="Operation1-Cla-class"/>
+      <ownedOperation xmi:id="_rGSAe9kNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAfNkNEeiGt6SQgwvm6A" name="Property1-Cla-class">
+      <ownedOperation xmi:id="_rGSAfdkNEeiGt6SQgwvm6A" name="Property1-Cla-class"/>
+      <ownedOperation xmi:id="_rGSAftkNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAf9kNEeiGt6SQgwvm6A" name="Reception1-Cla-class">
+      <ownedOperation xmi:id="_rGSAgNkNEeiGt6SQgwvm6A" name="Reception1-Cla-class"/>
+      <ownedOperation xmi:id="_rGSAgdkNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAgtkNEeiGt6SQgwvm6A" name="Class1" isActive="true">
+      <ownedAttribute xmi:id="_rGSAg9kNEeiGt6SQgwvm6A" name="Class1-Pro-ownedAttribute">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rGSAhNkNEeiGt6SQgwvm6A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rGSAhdkNEeiGt6SQgwvm6A"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_rGSAhtkNEeiGt6SQgwvm6A" name="Class1-Sta-ownedBehavior">
+        <region xmi:id="_rGSAh9kNEeiGt6SQgwvm6A" name="-Reg-region">
+          <subvertex xmi:type="uml:FinalState" xmi:id="_rGSAiNkNEeiGt6SQgwvm6A" name="-Fin-target"/>
+          <subvertex xmi:type="uml:FinalState" xmi:id="_rGSAidkNEeiGt6SQgwvm6A" name="-Fin-source"/>
+          <transition xmi:id="_rGSAitkNEeiGt6SQgwvm6A" name="-Tra-transition" source="_rGSAidkNEeiGt6SQgwvm6A" target="_rGSAiNkNEeiGt6SQgwvm6A">
+            <effect xmi:type="uml:OpaqueBehavior" xmi:id="_rGSAi9kNEeiGt6SQgwvm6A" name="-Opa-effect">
+              <language>OCL</language>
+              <body>default.body</body>
+            </effect>
+            <trigger xmi:id="_rGSAjNkNEeiGt6SQgwvm6A" name="-Tri-trigger" event="_rGRZYtkNEeiGt6SQgwvm6A"/>
+          </transition>
+        </region>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_rGSAjdkNEeiGt6SQgwvm6A" name="Class1"/>
+      <ownedOperation xmi:id="_rGSAjtkNEeiGt6SQgwvm6A" name="Class1-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAj9kNEeiGt6SQgwvm6A" name="-Cla-packagedElement">
+      <ownedOperation xmi:id="_rGSAkNkNEeiGt6SQgwvm6A" name="-Cla-packagedElement"/>
+      <ownedOperation xmi:id="_rGSAkdkNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rGSAktkNEeiGt6SQgwvm6A" name="Package1-Cla-packagedElement">
+      <ownedAttribute xmi:id="_rGSAk9kNEeiGt6SQgwvm6A" name="-Pro-ownedAttribute">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rGSAlNkNEeiGt6SQgwvm6A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rGSAldkNEeiGt6SQgwvm6A"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rGSAltkNEeiGt6SQgwvm6A" name="-Opa-ownedBehavior">
+        <language>OCL</language>
+        <body>default.body</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_rGSAl9kNEeiGt6SQgwvm6A" name="Package1-Cla-packagedElement"/>
+      <ownedOperation xmi:id="_rGSAmNkNEeiGt6SQgwvm6A" name="-Ope-ownedOperation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_rGSAmdkNEeiGt6SQgwvm6A" name="-Cal-event"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_rGSAmtkNEeiGt6SQgwvm6A" name="Trigger1-Cal-event"/>
+    <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_rGSAm9kNEeiGt6SQgwvm6A" name="-Any-event"/>
+    <packagedElement xmi:type="uml:AnyReceiveEvent" xmi:id="_rGSAnNkNEeiGt6SQgwvm6A" name="Trigger1-Any-event"/>
+    <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_rGSAndkNEeiGt6SQgwvm6A" name="-Cha-event"/>
+    <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_rGSAntkNEeiGt6SQgwvm6A" name="Trigger1-Cha-event"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_rGSAn9kNEeiGt6SQgwvm6A" name="-Sig-event"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_rGSAoNkNEeiGt6SQgwvm6A" name="Trigger1-Sig-event"/>
+    <profileApplication xmi:id="_rGSAodkNEeiGt6SQgwvm6A">
+      <eAnnotations xmi:id="_rGSAotkNEeiGt6SQgwvm6A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rGSAo9kNEeiGt6SQgwvm6A">
+      <eAnnotations xmi:id="_rGSApNkNEeiGt6SQgwvm6A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Default.profile.uml#_zT9POxTBEeWbsKyQNEJPlQ"/>
+      </eAnnotations>
+      <appliedProfile href="Default.profile.uml#_zT9PORTBEeWbsKyQNEJPlQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rGSApdkNEeiGt6SQgwvm6A">
+      <eAnnotations xmi:id="_rGSAptkNEeiGt6SQgwvm6A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Profile.profile.uml#_zT6LnBTBEeWbsKyQNEJPlQ"/>
+      </eAnnotations>
+      <appliedProfile href="Profile.profile.uml#_zT6LmhTBEeWbsKyQNEJPlQ"/>
+    </profileApplication>
+  </uml:Model>
+  <REMP:Context xmi:id="_rGSAp9kNEeiGt6SQgwvm6A" base_Class="_rGSAcNkNEeiGt6SQgwvm6A"/>
+  <REMP:Context xmi:id="_rGSngNkNEeiGt6SQgwvm6A" base_Class="_rGSAc9kNEeiGt6SQgwvm6A"/>
+  <REMP:Context xmi:id="_rGSngdkNEeiGt6SQgwvm6A" base_Class="_rGSAdtkNEeiGt6SQgwvm6A"/>
+  <REMP:Context xmi:id="_rGSngtkNEeiGt6SQgwvm6A" base_Class="_rGSAedkNEeiGt6SQgwvm6A"/>
+  <REMP:Context xmi:id="_rGSng9kNEeiGt6SQgwvm6A" base_Class="_rGSAfNkNEeiGt6SQgwvm6A"/>
+  <REMP:Context xmi:id="_rGSnhNkNEeiGt6SQgwvm6A" base_Class="_rGSAf9kNEeiGt6SQgwvm6A"/>
+</xmi:XMI>

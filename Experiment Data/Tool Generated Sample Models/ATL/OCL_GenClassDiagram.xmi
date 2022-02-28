@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleClass="http:///SimpleClass.ecore">
+  <SimpleClass:PrimitiveDataType name="String"/>
+  <SimpleClass:Class name="-Cla-class" parent="/11">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="Attribute1-Cla-class" parent="/11">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="Class1-Cla-parent" parent="/3" is_persistent="true">
+    <attrs type="/0" name="Class1-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Association src="/9" name="Class1-Ass-association" dest="/10"/>
+  <SimpleClass:Association src="/9" name="-Ass-association" dest="/10"/>
+  <SimpleClass:Class name="Class1" parent="/3">
+    <attrs type="/0" name="Class1-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="Association1-Cla-src" parent="/11">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="Class1-Cla-class" parent="/11">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="-Cla-src" parent="/11">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="-Cla-dest" parent="/11">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="-Cla-parent" parent="/3" is_persistent="true">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Association src="/7" name="Association1" dest="/13"/>
+  <SimpleClass:Class name="Association1-Cla-dest" parent="/11">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="-Cla-type" parent="/11" is_persistent="true">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+  <SimpleClass:Class name="Attribute1-Cla-type" parent="/11" is_persistent="true">
+    <attrs type="/0" name="-Att-attrs" is_primary="true"/>
+  </SimpleClass:Class>
+</xmi:XMI>
